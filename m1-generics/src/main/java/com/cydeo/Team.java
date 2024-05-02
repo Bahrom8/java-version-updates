@@ -23,7 +23,7 @@ public class Team<T extends Player> {  //Any class you can pass to Team. Should 
             return false;
         }else{
             members.add(player);
-            System.out.println(((Player)player).getName() + " picked for team" + this.name);
+            System.out.println(((Player)player).getName() + " picked for team " + this.name);
             return true;
         }
     }

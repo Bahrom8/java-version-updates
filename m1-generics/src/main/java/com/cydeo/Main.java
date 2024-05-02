@@ -33,18 +33,6 @@ public class Main {
           liverpool.addPlayer(beckham);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
     private static void printDoubled(ArrayList<Integer> items) {
