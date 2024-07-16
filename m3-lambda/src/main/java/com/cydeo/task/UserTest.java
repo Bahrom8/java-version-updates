@@ -21,6 +21,7 @@ public class UserTest {
         printName(users,user -> user.getLastname().startsWith("E"));
     }
 
+    //Ready Functional Interface Method
     private static void printName(List<User> users, Predicate<User> p){
         for(User user : users){
             if(p.test(user)){
