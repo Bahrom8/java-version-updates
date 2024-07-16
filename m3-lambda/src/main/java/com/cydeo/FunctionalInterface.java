@@ -32,47 +32,9 @@ public class FunctionalInterface {
         BiFunction<Integer,Integer,Integer> func = (x1,x2) -> x1+x2;
         System.out.println(func.apply(2,3));
 
-
         System.out.println("************SUPPLIER***************");
         Supplier<Double> randomValue = () -> Math.random();
         System.out.println(randomValue.get());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
