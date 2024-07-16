@@ -11,7 +11,7 @@ public class AppleTest {
         inventory.add(new Apple(300,Color.GREEN));
         inventory.add(new Apple(100,Color.RED));
         inventory.add(new Apple(200,Color.GREEN));
-        inventory.add(new Apple(50,Color.RED));
+        inventory.add(new Apple(250,Color.RED));
 
         inventory.forEach(apple -> System.out.println(apple));
 
@@ -32,7 +32,7 @@ public class AppleTest {
     //Task
     //Convert to ready functional interface
 
-    private static List<Apple> filterApples(List<Apple> inventory,ApplePredicate applePredicate){  //
+    private static List<Apple> filterApples(List<Apple> inventory,ApplePredicate applePredicate){
 
         List<Apple> result = new ArrayList<>();
 
