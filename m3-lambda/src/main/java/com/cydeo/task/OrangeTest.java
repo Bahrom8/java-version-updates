@@ -15,18 +15,20 @@ public class OrangeTest {
         inventory.add(new Orange(300, Color.GREEN));
         inventory.add(new Orange(100,Color.RED));
         inventory.add(new Orange(200,Color.GREEN));
-        inventory.add(new Orange(50,Color.RED));
+        inventory.add(new Orange(250,Color.RED));
 
-        OrangeFormatter orangeLambda = orange -> "An orange of" + orange.getWeight() + "g";
+        OrangeFormatter orangeLambda = orange -> "An orange of " + orange.getWeight() + "g";
         prettyPrintApple(inventory,orangeLambda);
 
-        prettyPrintApple(inventory,orange -> "An orange of" + orange.getWeight() + "g");
+        System.out.println("------------Second(Better) option-----------------");
+
+        prettyPrintApple(inventory,orange -> "An orange of " + orange.getWeight() + "g");
 
         System.out.println("**************************************");
 
         OrangeFormatter fancyFormatter = orange -> {
             String ch = orange.getWeight() > 200 ? "Heavy" : "Light";
-            return  "A" + ch + " " + orange.getColor() + " orange";
+            return  "A " + ch + " " + orange.getColor() + " orange";
         };
 
         prettyPrintApple(inventory,fancyFormatter);

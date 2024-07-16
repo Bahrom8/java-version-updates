@@ -10,6 +10,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
+
 public class Orange {
     private int weight;
     private Color color;
