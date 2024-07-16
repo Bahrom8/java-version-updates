@@ -6,3 +6,4 @@ public class BubbleSort implements Sorting {
         System.out.println("Bubble Sorting");
     }
 }
+

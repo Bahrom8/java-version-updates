@@ -20,12 +20,7 @@ public class ArraySorting { //QuickSort,BubbleSort
 
         as.sort(() -> System.out.println("Quick Sorting"));
 
-
-
-
-
     }
-
     private void sort(Sorting sorting){
         sorting.sort();
     }
