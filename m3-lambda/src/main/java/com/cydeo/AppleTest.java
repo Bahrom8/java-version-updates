@@ -33,7 +33,7 @@ public class AppleTest {
     //Convert to ready functional interface
 
     private static List<Apple> filterApples(List<Apple> inventory,ApplePredicate applePredicate){
-
+//polymorphism - pass different behaviors to our method - behavior parameterization
         List<Apple> result = new ArrayList<>();
 
         for(Apple apple : inventory){
